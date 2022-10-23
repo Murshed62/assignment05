@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(245, 239, 216);
+}
+/* font-family: 'Roboto', sans-serif; */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul{
+    display: flex;
+}
+header ul a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size:25px;
+}
+header ul a li{
+    list-style: none;
+    margin-top: 10px;
+    color: #fb5a4d;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+header ul a li:hover{
+    opacity: 1;
+    font-size:30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{  
+    width: 10%;
+}
+.logo h2{
+    color: #fb5a4d;
+}
+.content{
+    display: flex;
+    width: 100%;
+}
+.left img{  
+    width: 100%;
+    height: 80%;
+}
+.right img{
+    width: 100%;
+    height: 80%;
+    opacity: 0.5;
+    position: relative;
+}
+.signup{
+    position: absolute;
+    top: 75%;
+    left:75%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    padding: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+    box-shadow: 5px 10px #d7cccc5d;
+    color: white;
+    border-radius: 10px;
+
+}
+.email{
+    padding-right: 85px;
+}
+.signup h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;   
+}
+.signup h4{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+form{
+    margin-top: 10px;
+    width:100%;
+}
+form input{
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color:rgb(247, 251, 251);    
+}
+form select Option{
+    border-radius: 8px;
+}
+.birthdayh{
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.gender{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 54px;
+    font-family: 'Roboto', sans-serif;
+}
+.gender p{
+    padding-right: 5px;
+    font-weight: bold;
+}
+.submit{
+    margin-top: 20px; 
+    width: 25%; 
+    font-weight: 900; 
+    cursor: pointer;
+    background-color: #fb5a4d;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.submit:hover{
+    opacity: 1;
+}
+.account{
+    cursor: pointer;
+    color: orange;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.account:hover{
+    opacity: 1;
+}
+.contact{
+    position: relative;
+    margin-top: -100px;
+}
+.contact img{
+    width: 100%
+}
+.contactMiddle{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    border-radius: 10px;
+}
+.contactMiddle h1{
+    text-align: center;
+    padding:10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 140, 0)
+}
+.contactMiddle img{
+    width:100%;
+    margin-top: 100px;
+}
+.contactMessage{
+ 
+ text-align: center;
+ margin-top: 100px;
+}
+.contactMessage input{
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.contactMessage .name{
+    background-image: url('../images/name.png');
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 30px;
+}
+.contactMessage .email{
+    background-image: url('../images/email.png');
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 30px;
+    
+}
+.contactMessage textarea{
+    background-image: url('../images/message.png');
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 170px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 30px;
+}
+.contactSubmit{
+    margin-top: 20px;    
+    font-weight: 900; 
+    cursor: pointer;
+    background-color: orange;
+    opacity: 0.6;
+    transition: 0.3s; 
+}
+.contactSubmit:hover{
+    opacity: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    background-color: #292c34;
+}
+.confirmation{
+    display: flex;
+}
+.confirmation img{
+    width: 50px;
+}
+.confirmation p{
+    margin-left: 10px;
+    margin-top: 8px;
+    color: #797c82;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+footer a:hover{
+    color: orange;
+    font-size: 40px;
+    opacity:0.8;
+    transition: 0.3s;
+}

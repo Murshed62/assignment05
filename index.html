@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="tiger">
+            <h2>Fitness Power</h2>
+        </div>
+        <div>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Blog</li></a>
+                <a href="#"><li>About</li></a>
+            </ul>
+        </div>
+    </header>
+    <section class="content">
+        <div class="left">
+            <img src="./images/left.jpg" alt="bodybuilder">
+        </div>
+        <div class="right">
+            <img src="./images/right.jpg" alt="">
+            <div class="signup">
+                <h1>Sign Up</h1>
+                <h4>It's quick and easy.</h4>
+                <hr>
+                <form>
+                    <input type="text" placeholder="First name" autofocus>
+                    <input type="text" placeholder="Last name" autofocus>
+                    <input class="email" type="email" placeholder="Email" autofocus>
+                    <input class="email" type="password" placeholder="New password" autofocus>
+                    <label class="birthdayh" for="birthday">Birthday:</label>
+                    <select id="birthday" name="birthday">
+                        <Option value="january">January</Option>
+                        <Option value="february">February</Option>
+                        <Option value="march">March</Option>
+                        <Option value="april">April</Option>
+                        <Option value="may">May</Option>
+                        <Option value="june">June</Option>
+                        <Option value="july">July</Option>
+                        <Option value="august">August</Option>
+                        <Option value="september">September</Option>
+                        <Option value="october">October</Option>
+                        <Option value="november">November</Option>
+                        <Option value="december">December</Option>
+                    </select>
+                    <select id="birthday" name="birthday">
+                        <Option value="1">1</Option>
+                        <Option value="2">2</Option>
+                        <Option value="3">3</Option>
+                        <Option value="4">4</Option>
+                        <Option value="5">5</Option>
+                        <Option value="6">7</Option>
+                        <Option value="8">8</Option>
+                        <Option value="9">9</Option>
+                        <Option value="10">10</Option>
+                        <Option value="11">11</Option>
+                        <Option value="12">12</Option>
+                        <Option value="13">13</Option>
+                        <Option value="14">14</Option>
+                        <Option value="15">15</Option>
+                        <Option value="16">16</Option>
+                        <Option value="17">17</Option>
+                        <Option value="18">18</Option>
+                        <Option value="19">19</Option>
+                        <Option value="20">20</Option>
+                        <Option value="21">21</Option>
+                        <Option value="22">22</Option>
+                        <Option value="23">23</Option>
+                        <Option value="24">24</Option>
+                        <Option value="25">25</Option>
+                        <Option value="26">26</Option>
+                        <Option value="27">27</Option>
+                        <Option value="28">28</Option>
+                        <Option value="29">29</Option>
+                        <Option value="30">30</Option>
+                        <Option value="31">31</Option>
+                    </select>
+                    <select id="birthday" name="birthday">
+                        <Option value="1990">1990</Option>
+                        <Option value="1991">1991</Option>
+                        <Option value="1992">1992</Option>
+                        <Option value="1993">1993</Option>
+                        <Option value="1994">1994</Option>
+                        <Option value="1995">1995</Option>
+                        <Option value="1996">1996</Option>
+                        <Option value="1997">1997</Option>
+                        <Option value="1998">1998</Option>
+                        <Option value="1999">1999</Option>
+                        <Option value="2000">2000</Option>
+                        <Option value="2001">2001</Option>
+                        <Option value="2002">2002</Option>
+                        <Option value="2003">2003</Option>
+                        <Option value="2004">2004</Option>
+                        <Option value="2005">2005</Option>
+                        <Option value="2006">2006</Option>
+                        <Option value="2007">2007</Option>
+                        <Option value="2008">2008</Option>
+                        <Option value="2009">2009</Option>
+                    </select>
+                    <div class="gender">
+                        <div>
+                            <p>Gender: </p>
+                        </div>
+                        <div>
+                          <input type="radio" id="male" name="fav_language" value="MALE">
+                          <label for="male">Male</label>
+                          <input type="radio" id="female" name="fav_language" value="FEMALE">
+                          <label for="female">Female</label>
+                          <input type="radio" id="other" name="fav_language" value="OTHER">
+                          <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
+                <span class="account"><p>Already have an account? please login.</p></span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact">
+            <img src="./images/contact.png" alt="">
+        
+            <div class="contactMiddle">
+                <h1>Contact Us</h1>
+                <div>
+                    <img src="./images/chat.png" alt="">
+                </div>
+                <div class="contactMessage">
+                    <input class="name" type="text" placeholder="Name" autofocus>
+                    <input class="email" type="email" placeholder="Email" autofocus>
+                    <textarea placeholder="Message" autofocus></textarea>
+                    <input class="contactSubmit" type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="confirmation">
+            <img src="./images/logo.png" alt="">
+        <p>All Rights Reserved 2022.</p>
+        </div>
+        <div>
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+        </div>
+    </footer>
+</body>
+</html>
